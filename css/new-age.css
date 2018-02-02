@@ -16,7 +16,7 @@ a {
 }
 
 a:hover, a:focus {
-  color: #fcbd20;
+  color: #FF5B00;
 }
 
 hr {
@@ -91,7 +91,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav > li > a.active {
-  color: #fdcc52 !important;
+  color: #FF5B00 !important;
   background-color: transparent;
 }
 
@@ -106,7 +106,7 @@ section h2 {
 
 #mainNav .navbar-nav > li > a:hover,
 #mainNav .navbar-nav > li > a:focus:hover {
-  color: #fdcc52;
+  color: #FF5B00;
 }
 
 @media (min-width: 992px) {
@@ -156,7 +156,7 @@ header.masthead {
   color: white;
   background: url("../img/bg-pattern.png"), #7b4397;
   background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, #7b4397, #dc2430);
-  background: url("../img/bg-pattern.png"), linear-gradient(to left, #7b4397, #dc2430);
+  background: url("../img/bg-pattern.png"), linear-gradient(to left, #ed6a21, #dc2430);
 }
 
 header.masthead .header-content {
@@ -421,7 +421,7 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 .btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
   color: white;
   border-color: #fdcc52;
-  background-color: #fdcc52;
+  background-color: #FF5B00;
 }
 
 .btn {
