@@ -8,243 +8,108 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Pahal : Niti Shastra</title>
+    <title>Full Slider - Start Bootstrap Template</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom fonts for this template -->
-    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
-
-    <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
-
-    <!-- Plugin CSS -->
-    <link rel="stylesheet" href="device-mockups/device-mockups.min.css">
-
     <!-- Custom styles for this template -->
-    <link href="css/new-age.css" rel="stylesheet">
+    <link href="css/full-slider.css" rel="stylesheet">
 
   </head>
 
-  <body id="page-top">
+  <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">
-            <a href="index.html" id="brander">
-            <img class="img-responsive " src="img/logo.png" style="width: 10%;height: 10%">
-            </a>
-        <button class="navbar-toggler navbar-toggler-right navbar-brand-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          Menu
-          <i class="fa fa-bars"></i>
+        <a class="navbar-brand" href="#">Start Bootstrap</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#download">About</a>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home
+                <span class="sr-only">(current)</span>
+              </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#features">Vision</a>
+              <a class="nav-link" href="#">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#sponsors">Sponsors</a>
-            </li>  
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+              <a class="nav-link" href="#">Services</a>
             </li>
-              
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <header class="masthead">
-      <div class="container h-100">
-        <div class="row h-100">
-          <div class="col-lg-7 my-auto">
-            <div class="header-content mx-auto">
-              <h1 class="mb-5">
-                  <img class="img-responsive" src="img/logo.png" style="width: 100%;height: 100%"></h1>
-              
+    <header>
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <!-- Slide One - Set the background image for this slide in the line below -->
+          <div class="carousel-item active" style="background-image: url('http://placehold.it/1900x1080')">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>First Slide</h3>
+              <p>This is a description for the first slide.</p>
             </div>
           </div>
-          <div class="col-lg-5 my-auto">
-            <div class="device-container">
-              <div class="row" id="texter">
-                  <h1>The National Policy Summit</h1>
-                  <p>2<sup>nd</sup> and 3<sup>rd</sup> June 2018 </p>
-                  <a href="#download" class="btn btn-outline btn-xl js-scroll-trigger text-center">Learn More</a>
-              </div>
+          <!-- Slide Two - Set the background image for this slide in the line below -->
+          <div class="carousel-item" style="background-image: url('http://placehold.it/1900x1080')">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Second Slide</h3>
+              <p>This is a description for the second slide.</p>
+            </div>
+          </div>
+          <!-- Slide Three - Set the background image for this slide in the line below -->
+          <div class="carousel-item" style="background-image: url('http://placehold.it/1900x1080')">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Third Slide</h3>
+              <p>This is a description for the third slide.</p>
             </div>
           </div>
         </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
     </header>
 
-    <section class="download bg-primary text-center" id="download">
+    <!-- Page Content -->
+    <section class="py-5">
       <div class="container">
-        <div class="row">
-          <div class="col-md-7 mx-auto">
-              <p><i><b>"Be the Change you want to see"</i> - Mahatma Gandhi </b></p>
-              <p>For me, education has never been a business, rather it is the most beautiful community service one can ever provide. Seeing a change is what everyone desires but waiving the change takes something called courage. Pahal is nothing but a initiative of change. Change to mark a difference. Change to bring 'all under one'. Pahal is something which wont allow me a peaceful sleep until it happens right. Right in the sense of drawing out a change.</p> <p>Mates, I proudly present you my dream project "Pahal: Niti Shastra" a platform which will provide you opportunities to serve the society in the least way you can, a platform which will give you a chance to meet the specialty privileged sections of society and a platform which will help me to bring 'all under one'.Come be a part Pahal family. Experience the upcoming change in the society along with the present and future of nation, while we will serve you with best of business commitments and professionalism you aspire for. </p>
-          </div>
-            <div class="col-md-5 text-center" >
-            <img src="img/chair.png" class="img-responsive" style="width: 100%;padding-left: 10%;">
-                
-               <div style="margin-top: 0%;margin-left: 15%">
-                   <p><h1>Pratiush Pushkar</h1> </p>
-                <p>Founder President</p>
-                </div> 
-            
-          </div>
-        </div>
+        <h1>Full Slider by Start Bootstrap</h1>
+        <p>The background images for the slider are set directly in the HTML using inline CSS. The rest of the styles for this template are contained within the
+          <code>full-slider.css</code>
+          file.</p>
       </div>
     </section>
 
-    <section class="features" id="features">
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
       <div class="container">
-        <div class="section-heading text-center">
-          <h2>All under One</h2>
-          <p class="text-muted">Platform for the youth to shape the future of the nation</p>
-          
-        </div>
-        <div class="row">
-          <div class="col-lg-4 my-auto">
-            <div class="device-container text-center">
-            
-               <img class="img-responsive" src="img/logo2.png" style="width: 100%;padding-bottom: 10%;">
-                <br> 
-                <h1>Pratibha Charitable Trust</h1>
-             
-            </div>
-          </div>
-          <div class="col-lg-8 my-auto">
-            <div class="container-fluid">
-              <div class="row">
-                <div class="col-lg-6">
-                  <div class="feature-item">
-                    <i class="fa fa-bullhorn text-primary"></i>
-                    <h3>Debate</h3>
-                    <p class="text-muted">Put forward your views to shape the nation's policy</p>
-                  </div>
-                </div>
-                <div class="col-lg-6">
-                  <div class="feature-item">
-                    <i class="fa fa-comments text-primary"></i>
-                    <h3>Discuss</h3>
-                    <p class="text-muted">Deliberate on the views of your fellow citizens</p>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-lg-6">
-                  <div class="feature-item">
-                    <i class="fa fa-flag text-primary"></i>
-                    <h3>Deduce </h3>
-                    <p class="text-muted">Come up with plan of action for the government to follow</p>
-                  </div>
-                </div>
-                <div class="col-lg-6">
-                  <div class="feature-item">
-                    <i class="fas fa-handshake text-primary"></i>
-                    <h3>Diplomacy</h3>
-                    <p class="text-muted">Tactically gather support for your ideas</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2018</p>
       </div>
-    </section>
-
-    <section class="cta" id="sponsors">
-      <div class="cta-content text-center" style="color: white;margin-top: -5%">
-          <h1>Sponsors</h1>
-        <div class="container text-center" style="padding-top: 5%">
-            <div class="row">
-                <div class="col-md-4 sponsor-space">
-                <img class="img-responsive" src="img/sponsors/haldi.png" style="width: 100%"> 
-                </div> 
-                 <div class="col-md-4 sponsor-space">
-                 <img class="img-responsive" src="img/sponsors/maurya.png" style="width: 100%">
-                </div>
-                 <div class="col-md-4">
-                 <img class="img-responsive" src="img/sponsors/westend.PNG" style="width: 100%">
-
-                </div>
-            </div>
-            <div class="row" style="padding-top: 7%">
-                <div class="col-md-4 sponsor-space">
-                <img class="img-responsive" src="img/sponsors/wind.png" style="width: 100%">
-                </div>
-                 <div class="col-md-4 sponsor-space">
-                <img class="img-responsive" src="img/sponsors/novelty.png" style="width: 100%">
-                </div>
-                 <div class="col-md-4">
-                <img class="img-responsive" src="img/sponsors/disco.jpg" style="width: 100%">
-                </div>
-            </div>
-         
-        </div>
-      </div>
-      <div class="overlay"></div>
-    </section>
-
-    <section class="contact bg-primary" id="contact">
-      <div class="container">
-        <h2>Follow us on Social Media</h2>
-        <ul class="list-inline list-social">
-          <li class="list-inline-item social-twitter">
-            <a href="#">
-              <i class="fa fa-envelope"></i>
-            </a>
-          </li>
-          <li class="list-inline-item social-facebook">
-            <a href="#">
-              <i class="fab fa-facebook-f"></i>
-            </a>
-          </li>
-          <li class="list-inline-item social-google-plus">
-            <a href="#">
-              <i class="fab fa-instagram"></i>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </section>
-
-    <footer>
-      <div class="container">
-        <p>&copy; Niti Shashtra 2018. All Rights Reserved.</p>
-          <p> Desgined by <a href="https://riju.co" target="_blank">Riju Pramanik</a></p>
-      </div>
+      <!-- /.container -->
     </footer>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-    <!-- Custom scripts for this template -->
-    <script src="js/new-age.min.js"></script>
-    <script type="text/javascript">
-    
-    if (screen.width <= 994) {
-    /**document.getElementById("mainNav").style.visibility = "hidden"; **/
-        console.log("inside work");
-    var elem = document.getElementById('brander');
-    elem.parentNode.removeChild(elem);
-    document.getElementById("texter").style.marginTop = "-15%";    
-    }
- 
-    </script>
 
   </body>
 
