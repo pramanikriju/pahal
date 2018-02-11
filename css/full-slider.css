@@ -13,3 +13,22 @@
   -o-background-size: cover;
   background-size: cover;
 }
+
+.parallax {
+    /* The image used */
+    background-image: url("img_parallax.jpg");
+
+    /* Set a specific height */
+
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.brander {
+   margin-bottom: 20%;
+   font-size: 5.2 em;
+
+}
