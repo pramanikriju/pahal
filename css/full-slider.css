@@ -16,7 +16,7 @@
 
 .parallax {
     /* The image used */
-    background-image: url("img_parallax.jpg");
+    background-image: url("/img/bg1.jpg");
 
     /* Set a specific height */
 
@@ -33,13 +33,25 @@
 
 }
 
-.brander-font{
+.brander-font {
     font-size: 2.2em;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 
 }
 
-.brander2{
+.brander2 {
     font-size: 1.8em;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.about {
+    background-color: #4c4c4c;
+    color: white;
+}
+
+.about1 {
+    padding-top: 5%;
+}
+.icona:hover {
+    color:turquoise;
 }
