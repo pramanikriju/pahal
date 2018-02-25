@@ -49,6 +49,10 @@
     color: white;
 }
 
+.about2{
+    background-color: white;
+    color: black;
+}
 .about1 {
     padding-top: 5%;
 }
@@ -57,4 +61,9 @@
 }
 .logo-top{
     margin-bottom: -20%;
+}
+.com-link{
+    color: black;
+    font-size: 2em;
+
 }
